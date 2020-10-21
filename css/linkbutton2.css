@@ -1,0 +1,41 @@
+#blocks li a img, #blocks li a{
+-webkit-transition:all ease  0.3s;
+-moz-transition:all ease  0.3s;
+-ms-transition:all ease  0.3s;
+-o-transition:all ease  0.3s;
+transition:all ease  0.3s;
+}
+
+#blocks {background:#181818;}
+#blocks ul {padding:0; list-style:none;}
+#blocks li {float:left; width:20%; text-align:center;}
+#blocks p {text-align:center; color:#fff; font-size:18px; margin-top:20px;}
+#blocks li a {display:block; padding:35px 20px 25px; background-size:60% auto; background-repeat:no-repeat;}
+#blocks li:nth-child(odd) a {background-color:#bd261f;}
+#blocks li a img {transform:scale(1) rotate(0);}
+
+#blocks li a{background-color:#181818;}
+#blocks li:nth-child(1) a {background-image:url(../images/blocks/infra-lg.png);}
+#blocks li:nth-child(2) a {background-image:url(../images/blocks/gallery-lg.png);}
+#blocks li:nth-child(3) a {background-image:url(../images/blocks/admission-lg.png);}
+#blocks li:nth-child(4) a {background-image:url(../images/blocks/hospital-lg.png);}
+#blocks li:nth-child(5) a {background-image:url(../images/blocks/placement-lg.png);}
+
+#blocks li a:hover {background-size:20% auto; background-color:#607d8b;}
+#blocks li a:hover img {transform:scale(.8) rotate(-5deg);}
+
+
+@media all and (max-width:1199px){
+#blocks li a {padding-top:25px; padding-bottom:15px;}
+}
+@media all and (max-width:991px){
+#blocks li a img {max-width:70%;}
+#blocks p {font-size:14px;}
+}
+@media all and (max-width:767px){
+#blocks {text-align:center;padding:10px 0;}
+#blocks li {width:70%; float:none; margin:10px auto; border:1px solid #444;}
+}
+@media screen and (max-width:479px){
+#blocks li {width:100%;}
+}

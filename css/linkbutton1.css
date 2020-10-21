@@ -1,0 +1,43 @@
+.highblocks a:before{
+-webkit-transition:all ease  0.3s;
+-moz-transition:all ease  0.3s;
+-ms-transition:all ease  0.3s;
+-o-transition:all ease  0.3s;
+transition:all ease  0.3s;
+}
+
+.highblocks {color: #ffd; text-align:right; position: relative;z-index: 4;}
+.highblocks .wrapper {padding:10px 15px; position: relative;}
+.highblocks a {color: #fff;}
+.highblocks a:before {content:''; display:block; position: absolute; left:0;top:0%; height: 10%; width: 0; background:rgba(0,0,0,0.30);}
+.highblocks a:hover:before {width: 100%; top:0; height: 100%;}
+.highblocks .bx1 .wrapper {background: #7458a1;}
+.highblocks .bx2 .wrapper {background: #65aa5a;}
+.highblocks .bx3 .wrapper {background: #7b211d;}
+.highblocks .bx4 .wrapper {background: #3d9ac1;}
+.highblocks i {top:-35px; background: #fff; border-radius:50%; border:3px solid #fff; position: absolute; z-index: 2; left:12px;font-size:35px;color: #000;width: 64px;height: 64px;text-align: center;line-height:1.7;}
+.highblocks .bx1 i {border-color:#7458a1;color:#7458a1;}
+.highblocks .bx2 i {border-color:#65aa5a;color:#65aa5a;}
+.highblocks .bx3 i {border-color:#7b211d;color:#7b211d;}
+.highblocks .bx4 i {border-color:#3d9ac1;color:#3d9ac1;}
+.highblocks p {font-size:28px; font-weight: bold; line-height: 1.2; z-index: 2; position: relative;}
+.highblocks span {font-size:40px; text-transform: uppercase; line-height:1; margin-bottom:3px; display: block;  z-index: 2; position: relative;}
+
+@media all and (max-width:1199px){
+	.highblocks p {font-size: 18px;}
+	.highblocks span {font-size: 33px;}
+}
+@media all and (max-width:991px){
+	.highblocks {text-align: center;}
+	.highblocks p {margin-top:25px; margin-bottom: 5px;}
+	.highblocks span {font-size: 26px;}
+	.highblocks i {margin-left:-30px; left: 50%; width:60px; top:-30px;}
+}
+@media all and (max-width:767px){
+	.highblocks{margin-top:0;}
+	.highblocks, .highblocks .col-md-3 {padding:0;}
+	.highblocks>.row {margin: 0;}
+	.highblocks div[class*="bx"] {width: 50%; float: left;}
+	.highblocks i {width:60px;  top:10px;}
+	.highblocks p {margin-top:70px;}
+}

@@ -1,0 +1,116 @@
+/* Fixed sidenav, full height */
+.sidenav {
+    width: 0;
+    position: fixed;
+    z-index: 10001;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #b099cef2;;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition-duration: .95s;
+    transition-delay: .5s;
+      transition: ease-in-out;
+    padding-top: 60px;
+    text-align: left;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: yellow;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    
+    color: Blue;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    color:yellow
+  }
+  
+  .sdropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  
+  
+  
+  
+  
+  /* Style the sidenav links and the dropdown button */
+   
+  
+  /* On mouse-over */
+  .sdropdown-btn:hover {
+    color: yellow;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .sdropdown-container {
+    display: none;
+    margin-top: 12px;
+    padding-left: 25px;
+  }
+  .sdropdown-container a {
+  font-size: 23px;color: white;
+  
+    background-image: url(../img/menubg.png);
+    background-repeat: no-repeat;
+    background-position: 12px 15px;
+    z-index: 10001;
+  }
+  .sdropdown-btn:hover .sdropdown-container
+  {
+      display:block
+  }
+  /* Optional: Style the caret down icon */
+  
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

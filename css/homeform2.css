@@ -1,0 +1,35 @@
+#quickform{padding:20px 0;background:#444; color:#fff;}
+#quickform h4{font-size:38px;}
+#quickform h4 span{font-size:75px;display:block;text-transform:uppercase;opacity:0.7;line-height:0.9;font-weight:bold;}
+#quickform .form-control{border-radius:0;color:#fff;border-color: rgba(255, 255, 255, 0.2);background: rgba(0, 0, 0, 0.43);}
+
+#quickform ::-moz-placeholder {color:rgba(255, 255, 255, 0.7);}
+#quickform ::-webkit-input-placeholder {color:rgba(255, 255, 255, 0.7);}
+#quickform :-ms-input-placeholder {color:rgba(255, 255, 255, 0.7);}
+#quickform ::placeholder {color:rgba(255, 255, 255, 0.7);}
+#quickform .btn{width:100%;}
+#quickform textarea{height:145px;}
+#quickform .form-control:focus{box-shadow:none; border-color:rgba(255,255,255,0.5);}
+.form-inline .form-group .form-control{width:100%;}
+.form-inline .form-group {flex: 1;padding: 0 15px;}
+.btn{border-radius:0;font-weight:normal;padding:.375rem 1.2rem;}
+
+
+@media all and (max-width:1199px){
+#quickform h4 span{font-size:62px;}
+}
+@media all and (max-width:991px){
+#quickform{padding:40px;}
+#quickform .vcol_center{align-items:flex-start;margin-bottom:10px;}
+}
+@media all and (max-width:767px){
+#quickform .form-inline .form-group{flex:0 0 50%;max-width:50%;margin-bottom: 15px;}
+#quickform .form-control{height:38px;}
+}
+@media all and (max-width:535px){
+#quickform{padding:40px 0 30px;}
+#quickform h4{font-size:22px;}
+#quickform h4 span{font-size:40px;}
+#quickform textarea{height:100px;}
+#quickform .form-inline .form-group{flex:0 0 100%;max-width:100%;margin-bottom:10px;}
+}

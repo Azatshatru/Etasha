@@ -1,0 +1,53 @@
+.facee {display:none;}
+.facee2
+{
+
+
+margin:0px;
+
+width:322px;
+height:402px;
+position:fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+  
+
+.responsive-iframe {
+display:inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 99%;
+  height: 99%;
+  border: none;
+}
+
+@media screen and (max-width: 600px)  {
+  .facee2 {display:none;}
+.facee {display:block;}
+
+  }
+
+
+
+.closebtn{
+
+display:inherit;
+  position: absolute;
+z-index:3;
+  top: 2px;
+  right: 20px;
+  color: white;
+  font-size:25px;
+  cursor: pointer;
+margin:0px;
+padding:0px;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}

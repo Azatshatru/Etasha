@@ -1,0 +1,15 @@
+.GeneratedMarquee {
+position:relative;
+z-index:2;
+margin-bottom:0px;
+font-size:1.3em;
+line-height:1em;
+color:#330099;
+background-color:#CCFFFF;
+padding:.3em;
+}
+
+.GeneratedMarquee a
+{ 
+color:#330099;	 
+}

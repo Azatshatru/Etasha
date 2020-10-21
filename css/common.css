@@ -1,0 +1,98 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700');*/
+/*
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/RobotoRegular.woff') format('woff'),
+url('../fonts/RobotoRegular.ttf') format('truetype'),
+url('../fonts/RobotoRegular.svg#roboto') format('svg');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/RobotoBold.woff') format('woff'),
+url('../fonts/RobotoBold.ttf') format('truetype'),
+url('../fonts/RobotoBold.svg#roboto') format('svg');
+    font-weight: bold;
+}
+*/
+
+.validate-star{
+    color: red !important;
+    }
+.datepicker {
+    z-index: 1000000 !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.bottfr {
+    position: relative;
+}	
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.month-box {
+    width: 32.33%;
+    float: left;
+	margin-right: 5px;
+}
+.day-box {
+    width: 32.33%;
+    float: left;
+	margin-right: 5px;
+}
+.year-box {
+    width: 32.33%;
+    float: left;
+	margin-right: 5px;
+}
+.month-box1 {
+    width: 29.33%;
+    float: left;
+	margin-right: 5px;
+}
+.day-box1 {
+    width: 29.33%;
+    float: left;
+	margin-right: 5px;
+}
+.year-box1 {
+    width: 29.33%;
+    float: left;
+	margin-right: 5px;
+}
+.tag_class li{ padding: 3px !important;}

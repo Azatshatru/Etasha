@@ -1,0 +1,19 @@
+body{background:url(../images/bg.jpg) center center fixed;}
+#outer{max-width:100%;width:1368px; margin:auto; padding:30px 0;}
+
+.container{width:100%;max-width:100%;}
+*{transition:all ease 0.3s;}
+a{display: block;color: #333;}
+a:hover{text-decoration: none;}
+
+#outer .card{background:#fff;margin-bottom:30px;transform:scale(1);overflow: hidden;}
+#outer .card:hover{transform:scale(1.03);background:#eee;}
+#outer .card h4{padding:10px 20px;color: #000;}
+#outer h4{padding:10px 0;font-weight:bold; font-size:20px;margin:0;color: #fff;}
+
+img{width:100%;}
+h1{font-size:35px;color:#ff8a22;margin-bottom:25px;text-align: center;}
+h3{font-weight: bold;}
+
+.inner_outer{width:700px;max-width:90%; margin:auto;}
+#outer .inner_outer .card{margin-bottom:20px; border-bottom-width:5px;}

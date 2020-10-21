@@ -1,0 +1,43 @@
+.margin-bottom-5 { margin-bottom: 5px;}
+.page-header .navbar .navbar-nav li.open-more { background-color: #f9f9f9;}
+.page-header .navbar .navbar-nav li.open-more.selected>a { color: #2a3239;}
+.page-header .navbar .navbar-nav li.open-more:hover>a,.page-header .navbar .navbar-nav li.open-more>a{background:#f9f9f9;color:#2a3239}
+.page-header .navbar .navbar-nav .more-dropdown .dropdown-menu { z-index: 12;}
+
+.multi .text-sub { font-size: 95%;}
+.multi .text-sub span { font-size: 90%; font-style: italic; color: #888181;}
+
+.table-bordered.table-hover thead .sortable-control th.multi a { display: inline-block;}
+.table-bordered.table-hover thead .sortable-control th.multi a:before { content: '/'; margin-left: 2px; margin-right: 6px; color: #7A7A7A;}
+.table-bordered.table-hover thead .sortable-control th.multi a:nth-child(3n+1):before { content: '';}
+
+.sortable-control a { color: #333; text-decoration: none;}
+.asc:after, .desc:after, .sortable-control a:after { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; padding-left: 5px;}
+.sortable-control a:after { content: "\f0dc"; color: #dcdcdc;}
+.sortable-control .asc:after { content: "\f0de"; color: #4B77BE;}
+.sortable-control .desc:after { content: "\f0dd"; color: #4B77BE;}
+
+.required label:after { content: ' *'; color:#FF0000;}
+
+.portlet>.portlet-title>.actions>.btn.btn-default.btn-secondary-outline { padding: 4px 10px; background: #eee;}
+.date.date-picker input.form-filter~.input-group-btn .btn:not(.btn-sm):not(.btn-lg) { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px;}
+.in-row .mt-checkbox-list, .in-row .mt-radio-list { margin-top: 20px;}
+.mt-checkbox.mt-checkbox-outline { padding-left: 27px;}
+.md-editor>textarea { background-color: #FFF !important;}
+
+.fileinput { width: 100%;}
+.form-group .fileinput .input-group-addon.btn.default:not(.btn-outline) { background-color: #e1e5ec; border-color: #e1e5ec;}
+.form-group .fileinput .input-group-addon.btn.red:not(.btn-outline) { background-color: #e7505a; border-color: #e7505a;}
+.form-group .fileinput .input-group-addon.btn.green:not(.btn-outline) { color: #FFF; background-color: #32c5d2; border-color: #32c5d2;}
+.form-group .fileinput .input-group-addon.btn.default:not(.btn-outline).active, .form-group .fileinput .input-group-addon.btn.default:not(.btn-outline):active, .form-group .fileinput .input-group-addon.btn.default:not(.btn-outline):hover, .form-group .fileinput .input-group-addon.open>.btn.default:not(.btn-outline).dropdown-toggle { color: #666; background-color: #c2cad8; border-color: #bcc5d4;}
+.form-group .fileinput .input-group-addon.btn.red:not(.btn-outline).active, .form-group .fileinput .input-group-addon.btn.red:not(.btn-outline):active, .form-group .fileinput .input-group-addon.btn.red:not(.btn-outline):hover, .form-group .fileinput .input-group-addon.open>.btn.red:not(.btn-outline).dropdown-toggle { background-color: #e12330; border-color: #dc1e2b;}
+.form-group .fileinput .input-group-addon.btn.green:not(.btn-outline).active, .form-group .fileinput .input-group-addon.btn.green:not(.btn-outline):active, .form-group .fileinput .input-group-addon.btn.green:not(.btn-outline):hover, .form-group .fileinput .input-group-addon.open>.btn.green:not(.btn-outline).dropdown-toggle { background-color: #26a1ab; border-color: #2499a3;}
+
+.form-group .fileinput~label { position: absolute; left: 0; font-size: 16px; transition: .2s ease all; color: #999;}
+.creload {
+	text-decoration: underline;
+	background-image: url(../img/reload-icon.png);
+	background-repeat: no-repeat;
+	padding-left: 22px;
+	background-size: contain;
+}

@@ -1,0 +1,47 @@
+
+a:hover, a:focus{text-decoration:none;}
+ul{list-style:none;padding:0;margin:0;}
+
+/*url(../images/footer-bg.jpg) no-repeat center center*/
+#sitefooter{background:#d93a32; color:#fff;font-size:14px;position: relative;}
+#sitefooter:before{content:'';display: block;position: absolute;top:0;bottom:0;right:0;left:0;background:#000;opacity:0.8;z-index:1;}
+#sitefooter h4{font-size:20px;color:#fff;text-transform: uppercase;}
+#sitefooter h4:after{content:'';display:block;width:25px;height:2px;background:#fff; margin:8px 0 20px; opacity:0.3}
+#sitefooter>div{position: relative;z-index: 2;}
+
+.ftop{padding:50px 15px;}
+.fbtm{padding:30px 0; border-top:1px solid rgba(255,255,255,0.1);color: #aaa; }
+.credit{text-align:right;}
+.copy{font-size:13px;}
+
+.two_cols{column-count:2; column-gap:20px;}
+
+.flinks a{font-size:13px;color:rgba(255,255,255,0.5); padding:2px 0; display: inline-block;}
+.flinks a:hover{color:#fff;}
+
+/*#sitefooter .finfo .fs22{font-size:22px;}*/
+.finfo{letter-spacing:0.5px;color:rgba(255,255,255,0.5);}
+.finfo li{border-bottom:1px solid #666;padding:10px 0;}
+.finfo li:after{content:'';display:block;clear: both;}
+.finfo li i{float:left;font-size:22px;line-height:1.2;margin-right:10px;}
+.ph_wrapper{overflow:hidden;}
+.ph_wrapper a{color: #fff; margin-bottom:5px;display: inline-block;}
+
+#sitefooter .social a{height:40px;width:40px; padding:2px 3px; margin-right:5px;opacity:0.8;border-radius:50%;font-size:21px;line-height:1.7;color: #fff;display: inline-block;text-align: center;border:1px solid rgba(255,255,255,0.3);}
+#sitefooter .social a:hover{opacity:1;}
+#sitefooter .social .facebook:hover{background:#3a589b;}
+#sitefooter .social .instagram:hover{background:#ff0066;}
+#sitefooter .social .linkedin:hover{background:#007cb4;}
+#sitefooter .social .youtube:hover{background:#e63729;}
+#sitefooter .social .location:hover{background:#d93a32;}
+
+@media all and (max-width:767px){
+	#sitefooter{background-size:cover;background-attachment:fixed;}
+	#sitefooter h5{font-size:20px;}
+	.fbtm{text-align:center;padding:15px 0;}
+	.credit{text-align:center;}
+	#visitors{margin:10px 0;background:#222; padding:5px; border-radius:50px;}
+	.ftop .col-12:last-child .flinks{margin-bottom:0;}
+	.flinks{margin-bottom:30px;}
+}
+

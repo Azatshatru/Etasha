@@ -1,0 +1,18 @@
+#welcome{padding-top:70px;padding-bottom:70px;}
+#welcome h1{font-size:40px;}
+#welcome h4{margin-bottom:0;font-size:22px;}
+#welcome .tagline{font-size:18px;color:#484848;font-weight:bold; margin-bottom:15px;}
+#welcome p{line-height:1.6;text-align:justify;}
+#welcome .row{align-items:center;}
+
+@media all and (max-width:1330px){
+	#welcome .row{align-items:flex-start}
+}
+@media all and (max-width:1199px){
+	#welcome h1{font-size:23px;}
+	#welcome h4{font-size:20px;}
+}
+@media all and (max-width:991px){
+	#welcome {padding-top:40px;padding-bottom:50px;}
+	#welcome img{margin-bottom:20px;width:100%;}
+}

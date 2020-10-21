@@ -1,0 +1,484 @@
+@media only screen and (max-width: 2400px){
+	.eduaction .left-side{width: 50%;}
+	.right-side{width: 50%;}
+	.rightpic{width: 50%;background-position: right;}
+	.rightpic img{right: 30px;}
+	.school .righttext{width: 50%;}
+	.placeleft{width: 50%;}
+	.placeright{width: 50%;}
+	.trainerpic{width: 50%;background-position: right;}
+	.trainerpic img{right: 30px;}
+	.trainerleft{width: 50%;}
+	.develeft{width: 50%;}
+	.deveright{width: 50%;}
+	#changedot .owl-prev{top: 280px;}
+	#changedot .owl-next{top: 260px;}
+}
+
+@media only screen and (max-width: 1440px){
+	
+	.banner{width: 100%;}
+	.rightpic{background-position: 40px;}
+}
+
+@media only screen and (max-width: 1366px){
+	.eduaction .left-side{width: 50%;}
+	.right-side{width: 47%;}
+	.rightpic{width: 48%;}
+	.school .righttext{width: 50%;}
+	.placeleft{width: 48%;}
+	.placeright{width: 48%;}
+	.trainerpic{width: 50%;background-position: 92px 0px;}
+	.trainerleft{width: 48%;}
+	.develeft{width: 50%;}
+	.deveright{width: 50%;}
+	/*.programm ul li{vertical-align: top;}*/
+}
+
+@media only screen and (max-width: 1321px){
+	.current{padding: 50px 75px 33px 75px;}
+	.gover{padding: 30px 0px 35px 40px;}
+	.aboutleft{height: auto;}
+}
+
+@media only screen and (max-width: 1280px){
+
+	.right-side{padding: 50px 30px;}
+	.placeright{width: 566px;padding: 170px 17px;}
+	.trainerleft{padding: 160px 0px;width: 580px;}
+	.deveright{padding: 170px 0px;width: 556px;}
+	.aboutvistext{padding: 16px 0px 0px 40px;}
+	.historytext{padding: 27px 82px 0px 40px;}
+	.gover{padding: 20px 0px 15px 40px;}
+	.purposeleft{padding: 20px 35px 197px 35px;}
+	.backgroundfd{bottom: 33px;right: 126px;}
+	.donateamount{padding-top: 30px;}
+	.emplybilititext{padding: 30px 50px 188px 50px;}
+	.secondamount{bottom: 30px!important;right:99px!important;}
+	.lastpurpose{padding: 40px 35px 234px 35px!important;}
+	.lastamount{bottom: 70px!important;right: 125px!important;}
+	.workright{padding: 50px 75px 119px 75px;}
+	.emplo{padding: 50px 75px 225px 75px;}
+	.tedch{padding: 50px 75px 224px 75px;}
+	.wopme{padding: 50px 75px 275px 75px;}
+	.conss{padding: 50px 75px 250px 75px;}
+	.twoblocks .recuritr{padding: 29px 75px 1px 75px;}
+	.current{padding: 50px 75px 22px 75px;}
+	.recuritr p{margin-bottom: 24px;}
+	.fbg{height: 100%;}
+	.rightpic{background-position: 0px;}
+	.trainerpic{background-position: 0px;}
+
+}
+
+@media only screen and (max-width: 1240px){
+.eduaction .left-side{width: 50%;}
+	.right-side{width: 50%;}
+	.rightpic{width: 48%;}
+	.school .righttext{width: 50%;}
+	.placeleft{width: 48%;}
+	.placeright{width: 48%;}
+	.trainerpic{width: 50%;background-position: 92px 0px;}
+	.trainerleft{width: 48%;}
+	.develeft{width: 50%;}
+	.deveright{width: 50%;}
+	.programm ul li{vertical-align: top;}
+	.statics ul li:nth-child(3){margin-left: 0px;}
+}
+
+
+@media only screen and (max-width: 1200px){
+	.whatinside h5{padding: 0px 10px;line-height: 27px;}
+	.insidelast{width: 100%;}
+	.insidefoot{width: 100%;padding: 0px 10px;}
+	.firstone{width: 33%;padding: 0px;}
+	.connect{width: 34%;text-align: center;}
+	.contact{width: 33%;}
+	.statics{width: 100%;}
+	.partnerin{width: 100%;}
+	.copy{padding-left: 20px;}
+	.eve{padding-right: 20px;}
+	.textonbanner{top: 20px;left: 25px;}
+	.option-one{min-height: 304px;}
+	.statics ul li{width: 20%;vertical-align: top;}
+	.statics ul li:nth-child(3){margin-left: 0px;width: 20%;}
+	.statics ul li:nth-child(1){margin-left: 0px;}
+	.statics ul li h2{font-size: 40px;}
+	.eduaction .left-side{width: 50%;}
+	.right-side{width: 50%;}
+	.rightpic{width: 50%;}
+	.school .righttext{width: 50%;}
+	.placeleft{width: 50%;}
+	.placeright{width: 50%;padding: 170px 30px;}
+	.trainerpic{width: 50%;}
+	.trainerleft{width: 50%;}
+	.develeft{width: 50%;}
+	.deveright{width: 50%;padding: 170px 30px;}
+	.startegyinside p{width: 100%;}
+	.support h1{font-size: 25px;margin-right: 20px;}
+	.support a{padding: 10px 18px;}
+	.aboutleft{height: 302px;}
+	.aboutleft img{height: 100%;}
+	.aboutvistext{height: 302px;}
+	.gover{height: 540px;}
+	.inche{height: 540px;}
+	.socline{width: 100%;}
+	.aboutvistext h2{padding-bottom: 0px;margin-top: 0px;}
+	.gover{height: auto;}
+	.inche{height: auto;}
+
+}
+
+@media only screen and (max-width: 1138px){
+	.cerinside{width: 100%;}
+}
+
+@media only screen and (max-width: 1024px){
+	.inche{height: auto;}
+	.aboutvistext h2{padding-top: 0px;margin-top: 0px;padding-bottom: 0px;}
+}
+
+@media only screen and (max-width: 992px){
+	.textonbanner{top: 30px;left: 46px;}
+	.textonbanner h1{font-size: 40px;line-height: 40px;}
+	.textonbanner h2{font-size: 28px;}
+	.textonbanner h3{font-size: 24px;}
+	.textonbanner a{font-size: 25px;padding-top: 10px;}
+	.option-one{min-height: 331px;}
+	.statics ul li{width: 33%;vertical-align: top;margin-left: 0px;}
+	.statics ul li:nth-child(4){width: 49%;}
+	.statics ul li:nth-child(5){width: 49%;}
+	.eduaction .left-side{width: 49%;background-image: linear-gradient(169deg, #fbcd2f, #f9f9f9);height: auto;padding: 20px;border-radius: 0px 30px 30px 0px;background: -moz-linear-gradient(#fbcd2f, #f9f9f9); }
+	.eduaction .left-side img{position: static;}
+	.right-side{width: 49%;padding: 0px 30px;}
+	.right-side h1{padding-top: 5px;font-size: 35px;}
+	.rightpic{background-image: linear-gradient(169deg, #0695cc, #f9f9f9);height: auto;padding: 20px;width: 49%;border-radius: 30px 0px 0px 30px;}
+	.rightpic img{position: static;}
+	.school .righttext{width: 49%;padding: 0px 60px;}
+	.righttext h1{font-size: 35px;padding-top: 0px;}
+	.placeleft{background-image: linear-gradient(169deg, #79298a, #f9f9f9);height: auto;padding: 20px;width: 49%;border-radius: 0px 30px 30px 0px;}
+	.placeleft img{position: static;}
+	.placeright{width: 49%;padding: 10px 15px;}
+	.placeright h1{font-size: 35px;}
+	.trainerpic{background-image: linear-gradient(169deg, #2c64af, #f9f9f9);height: auto;padding: 20px;width: 49%;border-radius: 30px 0px 0px 30px;}
+	.trainerpic img{position: static;}
+	.trainerleft{width: 49%;padding: 15px 0px;}
+	.trainerleft h1{font-size: 35px;}
+	.develeft{background-image: linear-gradient(169deg, #58c8dc, #f9f9f9);height: auto;padding: 20px;width: 49%;border-radius: 0px 30px 30px 0px;}
+	.develeft img{position: static;}
+	.deveright{width: 49%;padding: 10px 0px;}
+	.deveright h1{font-size: 35px;}
+	.cerinside{width: 100%;text-align: center;}
+	.cerinside ul li{width: 33%;text-align: center;margin-bottom: 20px;}
+	.cerinside ul li:nth-child(4){width: 49%;text-align: center;}
+	.cerinside ul li:nth-child(5){width: 49%;text-align: center;}
+	.rightside{margin-right: 30px;}
+	.partnerin{width: 100%;}
+	.insidefoot{width: 100%;padding: 0px 10px;}
+	.firstone{width: 33%;padding: 0px;}
+	.connect{width: 34%;text-align: center;}
+	.contact{width: 33%;}
+	.footmenu ul li{padding: 0px 20px;}
+	.startegyinside p{width: 100%;}
+	.support h1{display: block;margin-bottom: 30px;margin-right: 0px;}
+	.corparat{width: 32%;}
+	.office{width: 32%;}
+	.operations{width: 32%;}
+	.conttop{width: 100%;}
+	.thirdadd{width: 100%;}
+	.workon{margin: 50px auto;}
+	.secondwork{margin-bottom: 40px;}
+	.gapto{margin-bottom: 20px;}
+	.whereon{width: 100%;}
+	.rightside{margin-right: 0px;}
+	.firstgov{width: 100%;}
+	.para{padding: 20px;}
+	.aboutvistext h2{font-size: 25px;padding-bottom: 0px;padding-top: 0px;}
+	.historytext{padding: 30px;}
+	.historytext h2{font-size: 25px;margin-top: 0px;}
+	.inche{height: auto;}
+	.gover{height: auto;padding: 20px;}
+	.kindd{width: 100%;}
+	.totalamount{width: 100%;}
+	.impact{padding: 10px;}
+	.space{padding: 10px!important;}
+	.donation img{top: -28px;right: 0px;}
+
+}
+
+@media only screen and (max-width: 820px){
+	.rightnav ul li{padding: 10px 5px;}
+}
+
+@media only screen and (max-width: 767px){
+	.option-one{width: 100%;padding: 0px 10px 40px 20px;}
+	.option-one:nth-child(2){width: 100%;padding: 0px 10px 40px 20px;}
+	.option-one:nth-child(3){width: 100%;padding: 0px 10px 40px 20px;}
+	.statics ul li{width: 100%!important;}
+	.statics ul li:nth-child(1){width: 100%;margin-left: 0px;}
+	.statics ul li:nth-child(3){margin: 0px;width: 100%;}
+	.statics ul li:nth-child(4){width: 100%;}
+	.statics ul li h2{font-size: 28px;}
+	.statics ul li p{font-size: 16px;}
+	.eduaction{padding: 0px 0px 30px 0px;}
+	.eduaction .left-side{width: 100%;}
+	.right-side{float: left;width: 100%;padding: 10px 20px;}
+	.right-side h1{padding-top: 20px;font-size: 35px;}
+	.rightpic{width: 100%;}
+	.school .righttext{width: 100%;float: left;padding: 10px 20px;}
+	.school .righttext h1{font-size: 35px;padding-top: 20px;}
+	.school{padding: 0px 0px 30px 0px;}
+	.placeright{width: 100%;padding: 10px 20px;}
+	.placeright h1{font-size: 35px;}
+	.Placement{padding: 0px 0px 30px 0px;}
+	.trainerpic{width: 100%;}
+	.develeft{width: 100%;}
+	.trainers{padding: 0px 0px 30px 0px;}
+	.trainerleft{padding: 10px 20px;width: 100%;}
+	.trainerleft h1{font-size: 35px;margin-left: 0px;}
+	.trainerleft p{margin-left: 0px;}
+	.trainerleft a{margin-left: 0px;}
+	.development{padding: 0px 0px 30px 0px;}
+	.deveright{width: 100%;padding: 10px 20px;}
+	.deveright h1{font-size: 35px;}
+	.cerinside{width: 100%;}
+	.cerinside ul li img{max-width: 100%;}
+	.count h1::after{top: 45px;}
+	.insidefoot{width: 100%;}
+	.firstone{width: 100%;}
+	.connect{width: 100%;text-align: center;margin: 2px auto}
+	.contact{width: 100%;}
+	.fbg{width: 100%;height: 100%;background-repeat: repeat;}
+	.firstone{padding: 10px;}
+	.connect h2{text-align: center;padding: 0px;}
+	.contact{margin: 2px auto;}
+	.footmenu{margin: 2px auto;}
+	.footmenu ul li{padding: 0px 10px;text-align: center;}
+	.partnerin{width: 100%;}
+	.historytext p{text-align: left;}
+	.rightside{margin-right: 15px;}
+	.menubar{margin-top: 0px;margin-right: 25px;}
+	.rightnav{display: none;}
+	.textonbanner{top: 10px;left: 20px;}
+	.textonbanner h1{font-size: 32px;line-height: 30px;}
+	.textonbanner h3{font-size: 25px;}
+	.textonbanner h2{font-size: 28px;}
+	.textonbanner a{padding-top: 0px;font-size: 25px;}
+	.insidelast{padding-left: 10px;padding-right: 10px;}
+	.ourpartner{padding: 20px 0px 30px 0px;}
+	.partnerin{padding: 10px;}
+	.placeleft{width: 100%;}
+	.placeleft img{left: 0px;}
+	.ceretificat{margin: 20px auto;}
+	.whatinside{padding: 10px;margin: 0px!important;}
+	.option-one{min-height: auto;}
+	.programm{padding: 20px 0px 30px 0px;}
+	.count{padding: 25px 0px 25px 0px;}
+	.whatwedo{padding: 30px 0px 0px 0px;}
+	.programm ul li{width: 32%;vertical-align: top;height: auto;margin-bottom: 20px;margin-top: 10px;}
+	.programm ul li:nth-child(3){width: 32%;}
+	.support h1{margin-bottom: 30px;}
+	.whatinside h5::after{top: 70px;}
+	.connect h2{margin-left: 0px;}
+	.aboutleft img{width: 100%;}
+	.aboutvistext{padding: 20px;}
+	.historypic img{width: 100%;}
+	.moveri{float: none!important;}
+	.historytext{padding: 20px;}
+	.aboutleft{height: auto;}
+	.aboutleft img{height: auto;}
+	.aboutvistext{height: auto;}
+	.gover{height: auto;}
+	.inche{height: auto;}
+	.aboutvistext p{padding: 10px 0px;text-align: left;}
+	.contactleft span{display: none;}
+	.contactright span{display: none;}
+	.thirdadd{width: 100%;}
+	.corparat{width: 100%;}
+	.office{width: 100%;}
+	.operations{width: 100%;}
+	.whereon{width: 100%;}
+	.secondpic{width: 100%;}
+	.secondpic img{width: 100%;}
+	.secondtext{width: 100%;float: left;padding: 20px;}
+	.spokenpic{width: 100%;float: left;}
+	.spoken{width: 100%;padding: 20px;}
+	.line-grey{display: none;}
+	.spokenpic img{margin-left: 0px;}
+	.connected{margin-top: 50px;}
+	.forfl{float: left;width: 100%;}
+	.whyconnect{float: left;width: 100%;}
+	.whyconnect img{width: 100%;}
+	.rightcont{width: 100%;float: left;padding: 20px;}
+	.startegyinside h2{font-size: 30px;}
+	.startegyinside p{padding-bottom: 10px;}
+	.startegyinside{margin: 30px auto;}
+	.rightcont h2{padding-bottom: 10px;}
+	.lastline{border-bottom: 4px solid #0394cb;}
+	.govpic{width: 100%;margin: 0 auto;}
+	.govpic img{width: 100%;margin: 0 auto;}
+	.govtext{padding: 5px;}
+	.govtext h2{font-size: 22px;margin-top: 15px;padding-bottom: 5px;}
+	.govtext p{text-align: justify;font-size: 16px;line-height: 26px;}
+	.meenaback{padding: 20px 0px 20px 0px;}
+	.meengrey{padding: 20px 0px 20px 0px;}
+	.flr{float: none!important;}
+	.spad{padding: 0px 15px 0px 15px!important;}
+	.vocationalin h2{font-size: 22px;}
+	.blockleft{padding: 30px;}
+	.blockleft ul li{line-height: 30px;background-position: 2px 12px;}
+	.blockleft ul li:nth-child(1){margin-top: 20px;}
+	.rightblock p{padding-top: 0px;}
+	.twoblocks .recuritr{padding: 15px;}
+	.current{padding: 15px;}
+	.conss{padding: 15px;}
+	.workright{padding: 15px;}
+	.row-eq-height{display: block!important;}
+	.logo img{margin-left: 0px;}
+	.cons h3{font-size: 22px;}
+	.aboutvistext h2{font-size: 22px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 5px;}
+	.aboutvistext p{margin-bottom: 0px;}
+	.historypic{height: auto;}
+	.historytext h2{font-size: 22px;margin-top: 0px;padding-bottom: 0px;}
+	.donation{max-width: 750px;width: 100%;padding: 25px!important;}
+	.donation input[type="text"]{width: 100%!important;}
+	.fsdsvs{width: 100%!important;}
+	.sein{width: 100%!important;}
+	.wichck{width: 100%!important;}
+	.phoch{width: 100%!important;}
+	.donts{width: 100%!important;}
+	.pick{width: 100%;}
+	.facee{padding: 10px;}
+	#changedot .owl-prev{display: none;}
+	#changedot .owl-next{display: none;}
+	#changesign .owl-next{display: none;}
+	#changesign .owl-prev{display: none;}
+	.donatenow{display: block;}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+	.donatenow{left: 0px;right: 0px;top: 0px;margin: 0 auto;z-index: 10001;max-width: 300px;padding: 10px;}
+	.donatenow p{font-size: 13px;}
+	.donatetop{padding-top: 0px;z-index: 100001;padding-bottom: 0px;}
+	.donatetop .btn{padding: 7px 8px;
+    background: #fbe02f;
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    border: none;
+    font-size: 14px;
+    width: 48%;}
+	.textonbanner p{font-size: 18px;padding-top: 3px;}
+	.textonbanner h3{width: 74%;}
+	
+	.textonbanner p img{display: none!important;}
+	.hidden-menu{width: 100%;}
+	.rightside{margin-top: 50px;}
+	.menubar{margin-top: 0px;margin-right: 15px;}
+	.option-one{width: 100%;}
+	.option-one:nth-child(2){width: 100%;}
+	.option-one:nth-child(3){width: 100%;}
+	.option-one p{font-size: 13px;}
+	.option-one h2{font-size: 16px;}
+	.option-one a{padding: 5px 13px;font-size: 12px;}
+	.statics{width: 100%;padding-top: 40px;}
+	.count h1{font-size: 22px;}
+	.statics ul li{width: 100%;}
+	.statics ul li:nth-child(1){width: 100%;margin-left: 0px;}
+	.statics ul li:nth-child(3){margin: 0px;width: 100%;}
+	.statics ul li:nth-child(4){width: 100%;}
+	.statics ul li h2{font-size: 28px;}
+	.statics ul li p{font-size: 16px;}
+	.textonbanner{top: 0px;left: 10px;}
+	.textonbanner h1{font-size: 17px;line-height: 20px;margin-top: 10px;}
+	.textonbanner h2{font-size: 16px;margin-top: -10px;}
+	.textonbanner h3{font-size: 16px;margin-top: 0px;margin-bottom: 0px;}
+	.textonbanner a{font-size: 16px;padding-top: 0px;margin-top: -10px;}
+	.textonbanner a img{width: 40px!important;}
+	.programm ul li{width: 50%;}
+	.programm ul li:nth-child(3){width: 50%;}
+	.whatwedo{padding: 10px 0px 10px 0px;}
+	.eduaction .left-side{width: 100%;height: auto;padding: 20px;}
+	.eduaction .left-side img{width: 100%;max-width: 100%;margin: 0 auto;top: 20px;position: static;}
+	.right-side{padding: 10px 20px;width: 100%;}
+	.right-side h1{font-size: 28px;padding-top: 0px!important;}
+	.partnerin{width: 100%;}
+	.cerinside{width: 100%;}
+	.school .righttext{padding: 10px 20px;width: 100%;float: left;}
+	.righttext h1{font-size: 28px!important;padding-top: 0px!important;}
+	.rightpic{width: 100%;height: auto;padding: 20px;}
+	.rightpic img{top: 20px;max-width: 100%;width: 100%;position: static;}
+	.placeleft{width: 100%;height: auto;padding: 20px;}
+	.placeleft img{width: 100%;max-width: 100%;max-height: 100%;top: 20px;left: 0px;position: static;}
+	.placeright{width: 100%;padding: 10px 20px;}
+	.placeright h1{font-size: 28px!important;}
+	.placeright{}
+	.trainerpic{width: 100%;height: auto;padding: 20px;}
+	.trainerpic img{width: 100%;max-height: 100%;top: 20px;position: static;}
+	.trainerleft{width: 100%;padding: 10px 20px;}
+	.trainerleft h1{font-size: 28px!important;margin-left: 0px;}
+	.trainerleft p{margin-left: 0px;}
+	.trainerleft a{margin-left: 0px;font-size: 16px;padding: 10px 20px;}
+	.develeft{width: 100%;height: auto;padding: 20px;}
+	.develeft img{position: static;width: 100%;max-width: 100%; top: 20px;}
+	.deveright{width: 100%;padding: 10px 20px;}
+	.deveright h1{font-size: 28px!important;}
+	.insidefoot{width: 100%;}
+	.firstone{width: 100%;}
+	.connect{width: 100%;text-align: center;margin: 2px auto}
+	.contact{width: 100%;}
+	.fbg{width: 100%;height: 100%;background-repeat: repeat;}
+	.firstone{padding: 10px;}
+	.connect h2{text-align: center;padding: 0px;}
+	.contact{margin: 2px auto;}
+	.footmenu{margin: 6px auto;}
+	.footmenu ul li{padding: 0px 10px;text-align: center;}
+	.right-side a{font-size: 16px;padding: 10px 20px;}
+	.righttext a{font-size: 16px;padding: 10px 20px;}
+	.placeright a{font-size: 16px;padding: 10px 20px;}
+	.deveright a{font-size: 16px;padding: 10px 20px;}
+	.cerinside ul li{width: 49%;text-align: center;}
+	.cerinside ul li:nth-child(5){width: 100%;text-align: center;margin: 20px 0px;}
+	.cerinside h2:after{top: 80px;}
+	.support h1{margin: 0px;font-size: 25px;padding-bottom: 20px;}
+	.support a{padding: 10px 20px;font-size: 18px;}
+	.programm ul li{margin-top: 20px;}
+	.copy{width: 100%;padding: 0px;text-align: center;}
+	.eye{width: 100%;text-align: center;}
+	.whatinside p{padding-top: 30px;}
+	.connect ul li i{font-size: 25px;}
+	.firstone p{font-size: 18px;}
+	.firstone h2{font-size: 25px;}
+	.connect h2{font-size: 25px;}
+	.contact h2{font-size: 25px;}
+	.innewsletter input[type=text]{width: 100%;border-radius: 4px;}
+	.innewsletter button{border-radius: 4px;margin-top: 10px;}
+	.whatinside h5::after{top: 90px;}
+	.startegyinside p{text-align: left;}
+	.whatinside h5{font-size: 18px;}
+	.whatinside h1{font-size: 28px;}
+}
+
+@media only screen and (max-width: 516px){
+	.innewsletter h2:after{top: 80px;}
+}
+
+
+@media only screen and (max-width: 400px){
+	
+}
+
+
+@media only screen and (max-width: 480px){
+	.innewsletter h2:after{top: 80px;}
+}
+
+@media only screen and (max-width: 352px){
+	.whatinside h5::after{top: 85px;}
+}

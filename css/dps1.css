@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('bootstrap.min.css');
+@import url('fontello.css');
+@import url('common.css');
+@import url('menu.css');
+@import url('header2.css');
+@import url('slider2.css');
+@import url('linkbutton2.css');
+@import url('welcome2.css');
+@import url('homegallery1.css');
+@import url('homeform2.css');
+@import url('footer3.css');
+
+#dwdsec div{-webkit-transition:all ease 0.4s;-moz-transition:all ease 0.4s;-ms-transition:all ease 0.4s;-o-transition:all ease 0.4s;transition:all ease 0.4s;}
+
+/*.btn-primary{background:#feaf25;}*/
+
+body{font-family:'Roboto', sans-serif;font-size:15px;}
+h1,h2,h3,.sitetitle p{font-family:'Roboto';}
+.sitetitle p{font-size:25px;color:#555;}
+
+.menu>li.active, .menu>li>a:hover, .menu>li:hover>a,.announce{background:#d93a32;}
+#mainmenu{border-bottom-color:#d93a32;}
+.sitetitle h2,#welcome h1,.gallery-wrapper h3{color:#d93a32;}
+
+.navbar-brand img{width:100px;}
+#quickform{position: relative;z-index:22;}
+.highblocks span{font-size:25px;}
+.gallery-wrapper h3{font-size:30px;font-weight:bold;text-transform:uppercase;}
+.navbar-toggler{background: #dedede;}
+
+.gallery-wrapper li{padding:5px;}
+.gallery-wrapper li a{position:relative;display: block;}
+
+/*
+#blocks{background: none;margin:50px 0;}
+#blocks li{}
+*/
+
+#gallerybox{padding:40px;background:#eee;border-top:1px solid #eaeaea;}
+#quickform{background:#d93a32;}
+#quickform .form-control{border-color:rgba(0,0,0,0.1);}
+
+
+/*Facilities*/
+.facilities {border:1px solid #eaeaea; background:#eee;padding:80px 0;}
+.facilities .container{background:#fff;}
+.facilities>.row {margin:0;}
+.facilities h2 {font-size:33px;margin: 0;}
+.facilities h3 {font-size:22px;margin: 0;}
+.facilities h2:after, .facilities h3:after {content:''; display:block; background: #feaf25; width:40px; height:3px; margin:10px 0;}
+#fclt_blk1 {background: #fff; border:1px solid #eaeaea; border-right: none;}
+#fclt_blk2 {background: #fff; border:1px solid #eaeaea; border-left:none; padding:0px;}
+.imgblk {padding:0;}
+.txtb {padding:35px 20px 0;}
+
+#dwdsec{background:#feaf25;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;text-align:center;font-weight: bold;line-height:1;}
+#dwdsec i{display:block;font-size:100px;}
+#dwdsec:hover{background:#d93a32;}
+#dwdsec:hover div{margin-bottom:30px;}
+
+.topright img{width: 130px;}
+.sitetitle h2{font-size:38px;}
+
+
+#alumni_meet{background:url(../images/alumni-bg.jpg) no-repeat center center;background-size:cover;position: relative;text-align: center;}
+#alumni_meet:before{content:'';display: block;background:#b91109;position: absolute;left: 0;top: 0;bottom: 0;right: 0;z-index: 1;opacity:0.8;}
+#alumni_meet a{position: relative;z-index:2; color: #fff; display: inline-block;font-size:30px; margin:100px 15px;border:2px solid rgba(255,255,255,0.5);padding:10px 30px;background:rgba(0,0,0,0.2)}
+#alumni_meet a:hover{background:#111;}
+
+
+#pageheader{background:#ddd url(../images/pageheader.png);color:#fff;text-align:center;padding:40px 20px;position: relative;}
+/*#pageheader:before{content:'';display: block; opacity:0.5;position:absolute;top: 0;bottom: 0;right: 0;left: 0;}*/
+#pageheader .container{position:relative;z-index:2;}
+#pageheader h1{margin:0;color:#333;font-size:34px;font-weight:bold;}
+.breadcrumb{background:none;justify-content:center;margin-bottom:0;font-size:13px;color: #666;}
+.breadcrumb a{color:#666;}
+.breadcrumb a:hover{color:#000;text-decoration: underline;}
+.breadcrumb-item.active{color:#185e51;}
+
+#content{padding-top:50px;padding-bottom:50px;}
+#content:after{content:'';display:block;clear:both;}
+#content h3{font-weight: bold;color:#d93a32;font-size:25px;}
+
+.gmap{height:395px;margin:20px 0;border:5px solid #ccc;width:100%;}
+
+.scode{font-size:110%;font-weight:bold;color: #000;}
+.form-control{border-radius:0;}
+
+.imgright{border:5px solid #ddd; float:right;max-width:47%; margin:5px 0 10px 20px;}
+.imgleft{border:5px solid #ddd; float:left;max-width:47%; margin:5px 20px 10px 0;}
+.imgbdr{border:5px solid #ddd; max-width:100%; margin-bottom:10px;}
+
+.liststyle1{margin:0 0 20px;padding:0;list-style:none;}
+.liststyle1 li{position:relative;padding-left:14px;padding:2px 15px; margin-bottom:7px;}
+.liststyle1 li:before{font:normal 16px/1 'fontello';content:"\f105";color:#888;position:absolute;margin-top:4px;left:0;}
+.alert{text-align:center;}
+
+@media all and (max-width:1199px){
+.facilities h3 {font-size:19px;}
+.txtb {padding-top:22px;}
+}
+@media all and (max-width:991px){
+.fcltb {border-bottom:1px solid #e8e8e8; padding-bottom:20px;}
+}
+@media all and (max-width:767px){
+.facilities h2 {font-size:28px;}
+.facilities .col-lg-6 {margin-bottom: 20px; border-bottom:1px solid #e8e8e8; border-top:1px solid #e8e8e8}
+.facilities .row:last-child div:last-child {margin-bottom:0;}	
+}
+@media all and (max-width:767px){
+.imgblk, .txtb {width:100%; float:none;}
+}
+/*Facilities End*/
+
+#princi{margin:46px auto 20px auto;overflow:hidden;}
+#princi h3{margin:0 0 5px;font-size:35px;}
+#princi .post{margin-bottom:10px;color:#d93a32;font-weight:bold;text-transform: uppercase;}
+#princi .pr_img{border-radius:50%;width:100%; padding:10px;box-shadow:5px 5px 10px rgba(0,0,0,0.2)}
+#princi .pr_txt{position:relative;}
+#princi .pr_txt i{font-size:200px;line-height:1;position:absolute;z-index:-1;color:#eaeaea;right:-50px;top:-20px;}
+#princi .subtitle{font-size:120%;}
+
+
+.mgmt{padding-right:30px;position:relative; margin-bottom:20px;}
+.mgmt img{width:100%;border:7px solid #ddd; padding:2px;}
+.mginfo{position:absolute;bottom:25px;left:9px; background:rgba(217,58,50,0.88);color:#fff; padding:7px 15px 10px;}
+.mginfo h5{margin:0 0 4px;font-size:19px;}
+.mginfo p{margin:0;font-size:13px;}
+
+form label{font-weight:bold;}
+.btn{width:200px;max-width:100%;position:relative;}
+.btnbar{margin-top:20px;}
+
+#dwd{width:800px;margin:auto;}
+#dwd li{display:flex;border:1px solid #ddd;border-width:1px 0 0 1px;margin:5px 0;}
+#dwd li>div{border:1px solid #ddd;border-width:0 1px 1px 0;}
+#dwd .ttl{flex:1;color:#222;padding:10px 15px;}
+#dwd .dwnbtn{padding:10px;}
+#dwd .dwnbtn a{background:#d93a32;color:#fff;padding:5px 15px;border-radius:50px;display:block;}
+#dwd .dwnbtn i{margin-right:7px;border-right:1px solid rgba(0,0,0,0.3);padding-right:10px;}
+#dwd .dwnbtn a:hover{background:#383838;text-decoration:none;}
+#dwd .dwnbtn a:hover i{animation-name:jump;animation-duration:1s;}
+
+@keyframes jump{0%{transform:translateY(0);}
+40%{transform:translateY(50%);}
+50%{transform:translateY(-20%);}
+80%{transform:translateY(30%);}
+100%{transform:translateY(0);}
+}
+@-webkit-keyframes jump{0%{transform:translateY(0);}
+40%{transform:translateY(50%);}
+50%{transform:translateY(-20%);}
+80%{transform:translateY(30%);}
+100%{transform:translateY(0);}
+}
+
+@media screen and (max-width:991px){#dwd{width:100%;}
+}
+@media screen and (max-width:767px){#dwd .dwnbtn a{padding:4px;width:30px;height:30px;text-align:center;}
+#dwd .dwnbtn a span{display:none;}
+#dwd .dwnbtn i{border:none;margin-right:0;padding-right:0;}
+}
+	
+	
+.full-rows{align-items:center;}
+.greybg{background:#eee; padding:50px 15px; margin:50px 0;}
+
+
+
+
+
+@media all and (max-width:1199px){
+	.mgmt{padding-right:0;}
+}
+
+@media all and (max-width:991px){
+	#mainslider .caption{font-size:30px;}
+	#mainslider .caption strong{display:block;font-size:120%;}
+	.sitetitle h2{font-size:33px;}
+	.sitetitle p{font-size:20px;}
+	.facilities{padding:20px 0;}
+	#dwdsec{margin-bottom:30px;padding:20px;}
+	.facilities .container{background:none;}
+	.facilities div[class*="col-"]{background:#fff;}
+	#gallerybox{padding:0;padding-bottom:5px;}
+	.mginfo h5{font-size:17px;}
+	.mginfo{padding:5px 10px 5px;bottom:15px;}
+}
+
+@media all and (max-width:767px){
+	.topright{display:none;}
+	#mainslider .carousel-item:before{display:none;}
+	#welcome{padding-bottom: 20px;}
+	.navbar-brand{margin-right:15px !important;}
+	.sitetitle{text-align:left;}
+	#princi h3{margin-top:20px;}
+	.imgleft,.imgright{float:none; margin:5px 0 20px;max-width:100%;}
+}
+@media all and (max-width:575px){
+	.sitetitle{width:100%;}
+	.navbar-brand{margin-right:auto !important;}
+	.sitetitle{text-align:center;}
+	.sitetitle h2{margin-top:0;}
+	#princi .pr_txt i{right:-20px;top:7px;}
+}

@@ -1,0 +1,195 @@
+
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.row_m
+{
+  padding:0 auto;
+  align:center;
+}
+.column_m {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 14px;
+}
+.card_in {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+  padding: 0 16px;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+
+.button {
+  border: none;
+  outline: 0;
+  display:inline-block;
+  padding: 8px 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  color:#fff;
+}
+.button:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 650px) {
+.column_m {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+
+/* Center website */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+
+
+
+
+
+
+
+ .row {
+	display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+ .row,
+ .row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 8px 0px 8px;
+  display: none; /* Hide columns by default */
+}
+.modal .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  align:center;
+  width: 100%;
+}
+
+/* Clear floats after rows */
+.modal .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: fixed;
+  top: 15px;
+  background-color:black;
+  padding:2px 6px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 42px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  background-color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal img {
+    width: 100%;
+  }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

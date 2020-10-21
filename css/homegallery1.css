@@ -1,0 +1,20 @@
+.homegallery a:before, .vidlink i {-webkit-transition:all ease-in 0.3s;-moz-transition:all ease-in 0.3s; -ms-transition:all ease-in 0.3s; -o-transition:all ease-in 0.3s;transition:all ease-in 0.3s;}
+
+.homegallery, .homegallery div {margin:0; padding:0;}
+.homegallery img {width:100%;}
+.homegallery a, .gallery-list a {position:relative; display:block;}
+.homegallery a:before, .gallery-list a:before {content:''; position:absolute;display:block; left:10px;right:10px;top:10px;bottom:10px; border:3px solid rgba(255,255,255,0.4)}
+.homegallery a:hover:before, .gallery-list a:hover:before {left:0;right:0;top:0;bottom:0; opacity:0;}
+
+.modal-header .close {margin-top: -2px;background: #4a341f;opacity: 0.7;color: #fff;width: 40px;height: 40px;border-radius: 50%;
+padding-bottom: 5px;font-size: 30px;text-shadow: none;outline: none;}
+
+.vidlink {position:relative;}
+.vidlink i {position:absolute; top: 50%;left: 50%; color: #fff; font-size:50px; line-height:1.8; border:3px solid #fff; border-radius:50%; width:100px; height:100px; text-align:center; padding-left:10px; margin:-50px 0 0 -50px; background:rgba(74, 52, 31, 0.7);}
+.vidlink i:hover {background:rgba(74, 52, 31,1);}
+
+#myModal .close {position: absolute; top: 0; right: 0; background:#fff; border-radius:50%; width:40px; height:40px; opacity:1; z-index:2; font-size:35px; color:#d80000; box-shadow:none;}
+
+@media all and (max-width:1199px){
+	.homegallery a:before, .gallery-list a:before {left:8px; right:8px; top:8px; bottom:8px;}
+}
