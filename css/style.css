@@ -295,18 +295,20 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .support a:hover{text-decoration: none;color: black;background:#f1dd00;transition: all ease-in .2s;}
 .fbg{background-size: cover;background-image: url(../img/footbg.png);background-repeat: no-repeat;width: 100%;height: 369px;float: left;}
 .insidefoot{width: 95%;float: none;margin: 0 auto;border-bottom:1px solid #2a4e5a;display: flex;
-  flex-wrap: wrap;
-  align-content: center; text-align: center;}
-.firstone{float: left;display:inline-block; text-align: center;max-width: 450px;width:40%;padding: 0px 45px;margin: 55px 0px;}
+  align-items: center; flex-wrap:wrap;
+  justify-content: center;text-align: center;
+}
+.firstone{  float: left;display:inline-block; text-align: center;max-width: 450px;width:40%;padding: 0px 45px;margin: 55px 2px;}
 .firstone h2{font-size: 24px; text-align: center;color: white;font-family: 'proxima_novasemibold';padding-bottom: 10px;}
 .firstone p{font-size: 16px; color: white; font-family: 'proxima_novaregular';}
 
-.contact{float: left;display:inline-block;text-align:center;max-width:384px;width:28%;padding: 0px 45px ;margin: 55px 0px;}
+.contact{ float: left;display:inline-block;text-align:center;max-width:384px;width:30%;padding: 0px 45px ;margin: 55px 2px;}
 .contact h2{font-size: 24px;text-align: center;color: white;font-family: 'proxima_novasemibold';padding-bottom: 10px;}
 .contact a{font-size: 16px; font-family:'proxima_novaregular';text-align: center;color: white;}
 .contact a:hover{font-weight: 500;color: white;}
 .contact p{font-size: 16px; color: white; font-family: 'proxima_novaregular';text-align:center;}
-.connect{float: left;display:inline-block; text-align: center;max-width:384px;width:30%;padding: 0px 30px;margin: 55px 0px;margin-left:3%;}
+
+.connect{float: left;display:inline-block; text-align: center;max-width:384px;width:30%;padding: 0px 30px;margin: 55px 2px;}
 .connect h2{font-size: 24px;text-align: center;color: white;font-family: 'proxima_novasemibold';padding-bottom: 10px;}
 .connect ul{list-style: none;text-align:center;}
 .connect ul li{display: inline-block;padding: 0px 10px;}
