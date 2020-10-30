@@ -31,8 +31,9 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 
 .top-head{width: 100%; background: white;height: 120px;float: left;}
 .logo{display: inline-block;}
-.logo img{margin-left: 48px;margin-top: 0px;height: 120px;
+.logo img{margin-top: 0px;height: 120px;
     width: 120px;}
+.knowLogo{width: 105px;}
 .rightside{float: right;margin-top: 25px;margin-right: 80px;}
 .rightnav{display: inline-block;}
 .rightnav ul{list-style: none;}
@@ -137,7 +138,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 .textonbanner{position: absolute;top: 70px;left: 96px;}
 .textonbanner h1{font-size: 52px;color: white;font-family: 'Open Sans', sans-serif;text-transform: uppercase;font-weight: 700;line-height: 60px;}
 .textonbanner h1 span{font-family: 'Satisfy', cursive;text-transform: lowercase;font-weight: normal;}
-.textonbanner h2{ font-family: 'proxima_novabold';font-size: 36px;color: #ffe100;display: inline-block;padding-right: 5px;}
+.textonbanner h2{ font-family: 'proxima_novabold';font-size: 36px;color: white;display: inline-block;padding-right: 5px;}
 .textonbanner h3{font-family: 'proxima_novabold';font-size: 28px;color: white;display: inline-block;}
 .textonbanner p{font-size: 28px;color: white;  font-family: 'proxima_novasemibold';padding-top: 30px;display: inline-block;}
 .textonbanner p:hover {text-decoration: none;color: #fbe02f;}
@@ -291,6 +292,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .partnerin h1:after{position: absolute;content: '';top: 60px;left: 0px;right: 0px;margin: 0 auto;background: #79298a;height: 4px; width: 86px;}
 .support{background: #0394cb;padding: 30px 0px 40px 0px;width: 100%;float: left;text-align: center;}
 .support h1{font-size: 35px;color: white;font-family:'Roboto', sans-serif;font-weight: 300;display: inline-block;margin-right: 30px;}
+.support h2{font-size: 35px;color: white;font-family:'Roboto', sans-serif;font-weight: 300;display: inline-block;margin-right: 30px;}
 .support a{background: #ffec14;padding: 15px 35px;color: white;font-size: 25px;color: black;border-radius: 50px;transition: all ease-in .2s;}
 .support a:hover{text-decoration: none;color: black;background:#f1dd00;transition: all ease-in .2s;}
 .fbg{background-size: cover;background-image: url(../img/footbg.png);background-repeat: no-repeat;width: 100%;height: 369px;float: left;}
@@ -855,4 +857,7 @@ opacity: 0;display: none;}
   margin-top: -1px; /* Prevent double borders */
   background-color: #f6f6f6;
   padding: 12px;
+}
+*:focus {
+    outline: -webkit-focus-ring-color auto 1px;
 }

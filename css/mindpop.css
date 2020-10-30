@@ -26,7 +26,7 @@
 
   .hamper {
      
-    animation: shake 02s;
+    animation: shake 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
