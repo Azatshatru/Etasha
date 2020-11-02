@@ -265,7 +265,7 @@ input[type="radio"] {
 }
 
 label {
-
+  width:100%;
   position: relative;
   vertical-align:text-top;
   
@@ -278,8 +278,12 @@ color: rgb(238, 235, 235);
 label:nth-last-child(1) {
     padding-right: 0;
 }
-
 label::before {
+  display: inline-block;
+  width: 100px;
+  height: 15px;
+}
+ label::before {
   content: "";
   border: 1px solid rgb(238, 235, 235);
   display: inline-block;
@@ -288,6 +292,9 @@ label::before {
   margin: -4.2px 10.2px;
   margin-left: 0;
   border-radius: 50%;
+}
+.commanLabel::before{
+  border: none !important;
 }
 
 label::after {
@@ -365,7 +372,7 @@ input, textarea
   
         <div class="top-head clearfix">
           <div class="logo">
-            <a href="index.html"><img src="img/EtashaLogo.png"></a>
+            <a href="index.html"><img src="img/EtashaLogo.png" alt=""></a>
           </div>
       
           <div class="rightside">
@@ -377,7 +384,7 @@ input, textarea
              <li><a class="headd" href="http://etasha.azurewebsites.net/" target="_blank">Placement Hub</a></li>
              <li><a  href="/donation" class="weislt">
              Contribute</a></li>
-               <li><a href="helpline.html" ><img src="img/LOGO 2.png" height="60px" width="130px" ></a></li>
+               <li><a href="helpline.html" ><img src="img/LOGO 2.png" height="60px" width="130px" alt=""></a></li>
             
              <!-- <li><a href="">Get Involved</a></li> --> 
             </ul>
@@ -392,7 +399,7 @@ input, textarea
           <div class="hidden-menu animated fadeInRight delay-.5s">
       
             <div class="close">
-              <img src="img/cross-n.png">
+              <img src="img/cross-n.png" alt="">
             </div>
       
             <ul>
@@ -484,7 +491,7 @@ input, textarea
       </header>
 
 <div class="banner clearfix">
-  <img src="img/ibanner.jpg" alt="Snow" style="width:100%;">
+  <img src="img/ibanner.jpg" alt="banner" style="width:100%;">
   <div class="centered">
 <h1>Wish to Speak to Us</h1>
 <p>
@@ -528,14 +535,28 @@ Helpline Number: <a href="tel:18001230611" style="color:#fff">18001230611</a>
                    <!-- second grid -->
            <div>        
              <form id="WebToLeadForm" action="https://ezeecrm.co.in/etashasociety/index.php?entryPoint=WebToPersonCapture" method="POST" name="WebToLeadForm">
-               <input name="first_name" id="first_name" type="text" placeholder="Your Name" required>
-               <input name="last_name" id="last_name" type="text" required=""  placeholder="Last Name"><br>
-               <input name="phone_mobile" id="phone_mobile" type="text" placeholder="Mobile" required/>
-               <input name="email1" id="email1" type="email" placeholder="Email" required><br>
+              <label for="Your Name" class="commanLabel">
+                <input name="first_name" id="first_name" type="text" placeholder="Your Name" required>
+              </label> 
+              <label for="Last Name" class="commanLabel">
+                <input name="last_name" id="last_name" type="text" required=""  placeholder="Last Name">
+              </label> <br>
+              <label for="Mobile" class="commanLabel">
+                <input name="phone_mobile" id="phone_mobile" type="text" placeholder="Mobile" required/>
+              </label>
+              <label for="Email" class="commanLabel">
+               <input name="email1" id="email1" type="email" placeholder="Email" required>
+              </label>
+               <br>
+               <label for="What would you like to share with us/ आप हमसे क्या कहना चाहते हैं ?" class="commanLabel">
                <textarea name="description" id="description" placeholder="What would you like to share with us/ आप हमसे क्या कहना चाहते हैं ?" rows="5" required></textarea><br>
-               <input name="age_c" id="age_c" type="text" placeholder="Age" ><br>
-               <h1 class="rh1">Do you want us to connect with you,How?/</h1>
-               <h1 class="rh1"> हम आपसे कैसे संपर्क करें?:</h1>
+               </label>
+               <label for="Age" class="commanLabel">
+               <input name="age_c" id="age_c" type="text" placeholder="Age" >
+               </label>
+               <br>
+               <h2 class="rh1">Do you want us to connect with you,How?/</h2>
+               <h2 class="rh1"> हम आपसे कैसे संपर्क करें?:</h2>
           <div class="radio-container">
            <input name="do_you_want_us_to_connect_c" id="do_you_want_us_to_connect_c_Phone" type="radio" value="Phone"/>
             <label for="do_you_want_us_to_connect_c_Phone">Phone</label>
@@ -557,7 +578,7 @@ Helpline Number: <a href="tel:18001230611" style="color:#fff">18001230611</a>
          </section>
          <section class="support">
   <div class="container">
-    <h1>Empower lives and co-create economic progress</h1>
+    <h2>Empower lives and co-create economic progress</h2>
     <a href="/donation">Donate Now</a>
   </div>
 </section>

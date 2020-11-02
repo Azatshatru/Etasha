@@ -66,10 +66,10 @@
 
     .hamper2 {
         display:block;
-        position:fixed;
+        position:absolute;
         top: 31px;
-        right: 55px;
-        width: 150px;
+        right: 75px;
+        width: 120px;
         z-index: 9;
         animation: shake 02s;
     animation-iteration-count: infinite;
