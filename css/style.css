@@ -878,3 +878,9 @@ opacity: 0;display: none;}
 *:focus {
     outline: -webkit-focus-ring-color auto 1px;
 }
+.knowlogo{
+  width: 105px;
+}
+.leftLogo{
+  margin-left: 44px;
+}
