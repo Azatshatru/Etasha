@@ -136,6 +136,10 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 .banner{width: 100%;float: left;position: relative;}
 
 .textonbanner{position: absolute;top: 70px;left: 96px;}
+.textonbanner .bnr{font-size: 52px;color: white;font-family: 'Open Sans', sans-serif;text-transform: uppercase;font-weight: 700;line-height: 60px;}
+.textonbanner .bnr span{font-family: 'Satisfy', cursive;text-transform: lowercase;font-weight: normal;}
+.textbnr{ font-family: 'proxima_novabold';font-size: 36px;color: white;display: inline-block;padding-right: 5px;}
+
 .textonbanner h1{font-size: 52px;color: white;font-family: 'Open Sans', sans-serif;text-transform: uppercase;font-weight: 700;line-height: 60px;}
 .textonbanner h1 span{font-family: 'Satisfy', cursive;text-transform: lowercase;font-weight: normal;}
 .textonbanner h2{ font-family: 'proxima_novabold';font-size: 36px;color: white;display: inline-block;padding-right: 5px;}
@@ -148,7 +152,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 .arrow img{width: auto!important;height: auto!important;}
 .three-options{width: 100%;float: left;}
 .option-one{width: 33.3%;float: left;display: inline-block;background: #4e4fa1;padding: 4px 0px 43px 20px;}
-.option-one h2{font-size: 38px;color: white;font-family: 'proxima_novasemibold';letter-spacing: -1.1px;}
+.option-one span{font-size: 38px;color: white;font-family: 'proxima_novasemibold';letter-spacing: -1.1px;}
 .option-one p{font-size: 19px; color: white; font-family: 'Maven Pro', sans-serif;
 font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .option-one a{background: white;padding: 13px 32px;text-align: center;border-radius: 50px;font-size: 20px;font-family: 'proxima_novasemibold';color: #333333;transition: all ease-in .3s;}
