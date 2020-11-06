@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 
@@ -23,9 +23,116 @@
   <style>
   @import url('https://fonts.googleapis.com/css?family=Roboto:300');
   </style>
+  <!-- program style starts -->
+  <style> 
+    
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  max-width: 300px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: arial;
+
+}
+.cimg {
+  width:100%;
+  height:200px;
+  padding: 0px;
+  margin:0px;
+  overflow-y: hidden;
+
+}
+
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #2f2b7f;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.product {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  text-align:center;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.product-content {
+  margin:20px;
+  display:inline-block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+
+/* Add Animation */
+.product-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.pClose {
+  position: fixed;
+  z-index:2;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.pClose:hover,
+.pClose:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .product-content {
+    width: 80%;
+  }
+  .pClose { right:15px; }
+}
+  </style> <!-- end -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Vocational Training</title>
+	<title>ETASHA Society</title>
   <link rel="icon" type="image/png" href="images/30-logo.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -58,21 +165,22 @@
   <header>
   
     <div class="top-head clearfix">
-      <div class="logo leftLogo">
-        <a href="index.html"><img alt="it's our company logo" src="img/EtashaLogo.png"></a>
+      <div class="logo">
+        <a href="index.html"><img src="img/EtashaLogo.png" alt="it's our company logo"></a>
       </div>
-      <a href="index.html"><img class="knowlogo" src="img/knowbility-logo.svg" alt="it's Knowbility logo" /></a>
-      <div class="rightside">
+  
+      <div class="rightside" role="navigation">
         
-      <div class="rightnav">
+      <div class="rightnav" role="menubar">
         <ul>
-            <li><a href="covid19.html">COVID-19</a></li>
+          <li><a href="https://www.etashasociety.org/blog/covid/">COVID-19</a></li>
          <li><a href="aboutus.html">About Us</a></li>
          <li><a class="headd" href="http://etasha.azurewebsites.net/" target="_blank">Placement Hub</a></li>
          <li><a  href="/donation" class="weislt">
          Contribute</a></li>
          <li><a href="helpline.html" ><img src="img/LOGO 2.png" height="60px" width="130px" alt="It's our helpline logo"></a></li>
-
+         <li><a href="womendevelopment.html" ><img class="hamper" src="img/Diwali_hamper.png" height="50px" width="130px" alt="it's a image for our diwalli hamper"></a></li>
+         
          <!-- <li><a href="">Get Involved</a></li> --> 
         </ul>
       </div>
@@ -89,7 +197,7 @@
           <img src="img/cross-n.png">
         </div>
   
-        <ul>
+        <ul role="menuitem">
           <li><a href="index.html">Home</a></li>
           <li class="whosd"><a href="#">Who we are</a>
           <span><i class="fas fa-chevron-down"></i></span>
@@ -114,7 +222,7 @@
             </ul>
           </div>
           </li>
-          <li class="newsds"><a href="covid19.html">Covid Response</a></li>
+          <li class="newsds"><a href="https://www.etashasociety.org/blog/covid/">Covid Response</a></li>
           <li class="newsds"><a href="how-we-work.html">How we work</a></li>
           <li class="getin"><a href="#">Get Involved</a>
           <span><i class="fas fa-chevron-down"></i></span>
@@ -177,17 +285,17 @@
     </div>
   </header>
 
-<div class="innerbanner clearfix">
+<div class="innerbanner clearfix" role="banner">
 
 <img src="img/VOCATIONAL-TRAINING-PROGRAMME.jpg" class="img-responsive">
 
 </div>
-
+<section role="main">
 
 <section class="vocational">
   <div class="container">
     <div class="vocationalin">
-      <h1>VOCATIONAL TRAINING AND PLACEMENT</h1>
+      <h2>VOCATIONAL TRAINING AND PLACEMENT</h2>
       <p style="color: #fbcd2f;">connecting youth with opportunities</p>
     </div>
   </div>
@@ -208,17 +316,38 @@
         <p>On completion of training, the trainees are assisted with placement at appropriate jobs in established companies after due diligence of the working environment and as per sector and location preference of the trainees.  Consequently, the placement rate of our VTP programs has consistently exceeded 65%.</p>
         <p>The programme has had a very positive influence on the girls of the community, and their enrolment has increased from an average of 29% during 2006- 2010), to over 60% (2015 onwards)</p>
 
-        <p style="font-weight: bold;">Current Project Locations:Devli and Mangolpuri in Delhi and Janouli in Haryana.
+        <p style="font-weight: bold;">Current Project Locations: Madanpur Khadar, Tigri, Mangolpuri, Karol Bagh and Begumpur in Delhi, Noida in Uttar Pradesh and Janouli in Haryana.
 </p>
         <p></p>
     </div>
 </div>
 </section>
 
+<!-- programs -->
+<div class="class="clearfix " style="width: 100%;float: left;" >
+<h2 style="text-align:center;font-family:'Roboto', sans-serif;font-weight: 500;">OUR PROGRAMS</h2>
 
+<div class="card">
+  <div class="cimg">
+  <img src="img/SMART.jpg" alt="SMART BROCHURE" style="width:100%" >
+  </div>
+  <h3 style="color:#2f2b7f;font-family:'Roboto', sans-serif;font-weight: 500;">SMART BROCHURE</h3>
+  <p style="padding:5px; color:#000; font-family:'proxima_novaregular';">There is no particular time to learn then why stop learning during this pandemic. A great opportunity to get skilled and get placed through our SMART JOB READINESS PROGRAM.
+  </p>
+  <p><button id="myPrd">Know More</button></p>
+</div>
 
+<!-- The Modal -->
+<div id="myProduct" class="product">
+  <span class="pClose">&times;</span>
+  <img class="product-content" id="pImg">
+  
+</div>
+</div>
+<!-- programs section end -->
+</section>
 
-<section class="clearfix" style="width: 100%;float: left;">
+<section class="clearfix" style="width: 100%;float: left;" role="complementary">
   <div class="youvideo howv">
     <iframe width="100%" height="409" src="https://www.youtube.com/embed/wbOXCMETbXM?list=PLRPs8twrR2bSJLuHFiimnZA3cCheTJb3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
@@ -227,14 +356,14 @@
 
 
 
-<section class="support">
+<section class="support" role="complementary">
   <div class="container">
-    <h2>Empower lives and co-create economic progress</h2>
+    <h1>Empower lives and co-create economic progress</h1>
     <a href="/donation">Donate Now</a>
   </div>
 </section>
 
-<footer class="fbg clearfix">
+<footer class="fbg clearfix" role="contentinfo">
   
   <div class="insidefoot clearfix">
   
@@ -285,6 +414,26 @@
 
 </footer>
 
+<script>
+// Get the modal
+var product = document.getElementById("myProduct");
 
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var prd = document.getElementById("myPrd");
+var productImg = document.getElementById("pImg");
+prd.onclick = function(){
+  product.style.display = "block";
+  productImg.src = "img/SMART.jpg";
+  productImg.style.align="center";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("pClose")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  product.style.display = "none";
+}
+</script>
 </body>
 </html>

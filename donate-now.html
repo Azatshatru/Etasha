@@ -5,7 +5,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Donate Now</title>
+	<title>ETASHA Society</title>
   <link rel="icon" type="image/png" href="images/30-logo.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -63,13 +63,13 @@
   <header>
   
     <div class="top-head clearfix">
-      <div class="logo leftLogo">
+      <div class="logo">
         <a href="index.html"><img src="img/EtashaLogo.png" alt="it's our company logo"></a>
       </div>
-      <a href="index.html"><img class="knowlogo" src="img/knowbility-logo.svg" alt="it's Knowbility logo" /></a> 
-      <div class="rightside">
+  
+      <div class="rightside" role="navigation">
         
-      <div class="rightnav">
+      <div class="rightnav" role="menubar">
         <ul>
           <li><a href="https://www.etashasociety.org/blog/covid/">COVID-19</a></li>
          <li><a href="aboutus.html">About Us</a></li>
@@ -77,95 +77,119 @@
          <li><a  href="/donation" class="weislt">
          Contribute</a></li>
          <li><a href="helpline.html" ><img src="img/LOGO 2.png" height="60px" width="130px" alt="It's our helpline logo"></a></li>
-        <li><a href="womendevelopment.html" ><img class="hamper" src="img/Diwali_hamper.png" height="50px" width="130px" alt="it's a image for our diwalli hamper"></a></li>
-
+         <li><a href="womendevelopment.html" ><img class="hamper" src="img/Diwali_hamper.png" height="50px" width="130px" alt="it's a image for our diwalli hamper"></a></li>
+         
          <!-- <li><a href="">Get Involved</a></li> --> 
         </ul>
       </div>
   
       <div class="menubar">
-        <i class="fas fa-bars" onclick="openNav()"></i>
+        <i class="fas fa-bars"></i>
       </div>
   
       </div>
       <div class="whitespace" ></div>
-      <div class="sidenav animated fadeInRight delay-.5s" id="mySidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-          <a href="index.html">Home</a>
-          <button class="sdropdown-btn">Who we are 
-            <i class="fas fa-chevron-down"></i>
-          </button>
-          <div class="sdropdown-container">
-            <a href="aboutus.html">About Us</a>
-            <a href="team.html">Our Team</a>
-            <a href="governor.html">Governing Council</a>
-          </div>
-          <button class="sdropdown-btn">What we do 
-            <i class="fas fa-chevron-down"></i>
-          </button>
-          <div class="sdropdown-container">
-            <a href="vocational.html">Vocational Training</a>
-            <a href="counselling.html">Counselling in Schools</a>
-            <a href="employbility.html">Employability Skills Dev. </a>
-                     <a href="teachertraining.html">Training of Trainers</a>
-                     <a href="womendevelopment.html">Women Entrepreneurs</a>
-                     <a href="helpline.html">Helpline</a>
-          </div>
-          <a href="https://www.etashasociety.org/blog/covid/">Covid Response</a>
-          <a href="how-we-work.html">How we work</a></li>
-          
-          <button class="sdropdown-btn">Get Involved 
-            <i class="fas fa-chevron-down"></i>
-          </button>
-          <div class="sdropdown-container">
-           <a href="/volunteer">Volunteer</a>
-           <a href="alumniconnect.html">Alumni Connect</a>
-           <a href="/current-opening">Current Openings</a>
-           <a href="recruit.html">Recruit Our Trainee</a>
-           <a href="/donation">Make a Donation</a>
-          </div>
-          <button class="sdropdown-btn"> Resources & Media
-            <i class="fas fa-chevron-down"></i>
-          </button>
-          <div class="sdropdown-container">
-          <a href="/newsletter">Newsletter</a>
-          <button class="sdropdown-btn">Press Room 
-            <i class="fas fa-chevron-down rotate"></i>
-          </button>
-          <div class="sdropdown-container">
-           <a href="/news">News</a>
-           <a href="/photo-gallery">Image Gallery</a>
-           <a href="/videos">Video Gallery</a>
-          </div>
-          <a href="/blog">Blog</a>
-          <a href="/documents">Documents</a>
-          </div>
-          <a href="contactus.html">Contact us</a>
-          <a href="/donation">Donate</a>
-          <div class="menusocial">
-                 <ul>
-                    <li><a href="http://www.facebook.com/etashasociety" target="_blank"><i class="fab fa-facebook-f ffb"></i></a></li>
-                    <li><a href="http://www.instagram.com/etashasociety/" target="_blank"><i class="fab fa-instagram intg"></i></a></li>
-                    <li><a href="http://twitter.com/etashasociety" target="_blank"><i class="fab fa-twitter twittr"></i></a></li>
-                    <li><a href="http://www.youtube.com/ETASHAIndia" target="_blank"><i class="fab fa-youtube youtb"></i></a></li>
-                    <li><a href="http://www.etashasociety.org/blog" target="_blank"><i class="fas fa-rss rssf"></i></a></li>
-                    <li><a href=""><i class="fab fa-google-plus-g ggp"></i></a></li>
-          
-          
-                  </ul>
-                </div>
+      <div class="hidden-menu animated fadeInRight delay-.5s">
+  
+        <div class="close">
+          <img src="img/cross-n.png">
         </div>
+  
+        <ul role="menuitem">
+          <li><a href="index.html">Home</a></li>
+          <li class="whosd"><a href="#">Who we are</a>
+          <span><i class="fas fa-chevron-down"></i></span>
+          <div class="whodrop" id="dropnabv">
+          <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="governor.html">Governing Council</a></li>
+          </ul>
+          </div>
+        </li>
+          <li class="whatds"><a href="#">What we do</a>
+          <span><i class="fas fa-chevron-down"></i></span>
+          <div class="subdrop" id="dropnabv">
+            <ul>
+             <li><a href="vocational.html">Vocational Training</a></li>
+             <li><a href="counselling.html">Counselling in Schools</a></li>
+             <li><a href="employbility.html">Employability Skills Dev. </a></li>
+             <li><a href="teachertraining.html">Training of Trainers</a></li>
+             <li><a href="womendevelopment.html">Women Entrepreneurs</a></li>
+             <li><a href="helpline.html">Helpline</a></li>
+            </ul>
+          </div>
+          </li>
+          <li class="newsds"><a href="https://www.etashasociety.org/blog/covid/">Covid Response</a></li>
+          <li class="newsds"><a href="how-we-work.html">How we work</a></li>
+          <li class="getin"><a href="#">Get Involved</a>
+          <span><i class="fas fa-chevron-down"></i></span>
+          <div class="getdrop" id="dropnabv">
+            <ul>
+            <li><a href="/volunteer">Volunteer</a></li>
+            <li><a href="alumniconnect.html">Alumni Connect</a></li>
+            <li><a href="/current-opening">Current Openings</a></li>
+            <li><a href="recruit.html">Recruit Our Trainee</a></li>
+            <!-- <li><a href="http://eboxe.com/ETASHA/visitproject.html">Project Locations</a></li> -->
+            <li><a href="/donation">Make a Donation</a></li>
+            </ul>
+          </div>
+        </li>
+          <li class="resour"><a href="#">Resources & Media 
+            <span><i class="fas fa-chevron-down"></i></span></a>
+          
+          <div class="resdrop" id="dropnabv">
+            <ul>
+             <li><a href="/newsletter">Newsletter</a></li>
+             <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Press Room 
+              <p class="prosds"><i class="fas fa-chevron-down rotate"></i></p>
+             </a>
+              
+              <ul class="dropdown-menu" id="droppress">
+              <li><a href="/news">News</a></li>
+              <li><a href="/photo-gallery">Image Gallery</a></li>
+              <li><a href="/videos">Video Gallery</a></li>
+             
+             
+              </ul>
+              
+             </li>
+             <li><a href="/blog">Blog</a></li>
+             <li><a href="/documents">Documents</a></li>
+            </ul>
+          </div>
+        </li>
+          <li><a href="contactus.html">Contact us</a></li>
+          <li><a href="/donation">Donate</a></li>
+  
+          </ul>
+  
+  
+        <div class="menusocial">
+         <ul>
+            <li><a href="http://www.facebook.com/etashasociety" target="_blank"><i class="fab fa-facebook-f ffb"></i></a></li>
+            <li><a href="http://www.instagram.com/etashasociety/" target="_blank"><i class="fab fa-instagram intg"></i></a></li>
+            <li><a href="http://twitter.com/etashasociety" target="_blank"><i class="fab fa-twitter twittr"></i></a></li>
+            <li><a href="http://www.youtube.com/ETASHAIndia" target="_blank"><i class="fab fa-youtube youtb"></i></a></li>
+            <li><a href="http://www.etashasociety.org/blog" target="_blank"><i class="fas fa-rss rssf"></i></a></li>
+            <li><a href=""><i class="fab fa-google-plus-g ggp"></i></a></li>
+  
+  
+          </ul>
+        </div>
+      </div>
   
     </div>
   </header>
 
-<section class="support">
+<section class="support" role="banner">
   <div class="container">
     <h1>Would you like to make this donation in the name of /in honour of a loved one? If yes, then share with us their details so we can make the occasion extra special for them. If it's not an occasion but you would still like to honour a loved one, we are happy to facilitate for you. <br>Click on 'Write To Us' button below and send us your loved one's— <br> Name and Email Id along with the occasion and your message.</h1>
     <a href="mailto: admin@etashasociety.org">WRITE TO US</a>
   </div>
 </section>
-
+<section role="table">
 <!‐‐BEGIN danamojo code‐‐>
 <style>
   #ngoContentContainer .panel {padding: 0px !important;display: block !important;}
@@ -182,14 +206,15 @@
    },20000);  
   </script>
 <!‐‐END danamojo code‐‐>
-<section class="support">
+</section>
+<section class="support" role="complementary">
   <div class="container">
-    <h2>Empower lives and co-create economic progress</h2>
+    <h1>Empower lives and co-create economic progress</h1>
     <a href="https://etashasociety.org/donate-now.html">Donate Now</a>
   </div>
 </section>
 
-<footer class="fbg clearfix">
+<footer class="fbg clearfix" role="contentinfo">
   
   <div class="insidefoot clearfix">
   
