@@ -62,7 +62,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 .hidden-menu ul li span{float: inherit;cursor: pointer;font-size: 18px;padding-left: 10px;}
 #dropnav{display: none;width: 100%;}
 .subdrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 20px;}
-}
+
 .subdrop ul{list-style: none;}
 .subdrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 28px;
     background-image: url(../img/menubg.png);
@@ -72,7 +72,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
 .subdrop ul li:nth-child(3){padding: 2px 0px 10px 28px!important;}
 
 .howdrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 20px;}
-}
+
 .howdrop ul{list-style: none;}
 .howdrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 30px;
     background-image: url(../img/menubg.png);
@@ -81,7 +81,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
     z-index: 10001;}
 .howdrop ul li:nth-child(3){padding: 2px 0px 10px 30px!important;}
 .whodrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 20px;}
-}
+
 .whodrop ul{list-style: none;}
 .whodrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 30px;
     background-image: url(../img/menubg.png);
@@ -90,7 +90,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
     z-index: 10001;}
 .whodrop ul li:nth-child(3){padding: 2px 0px 10px 30px!important;}
 .getdrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 20px;}
-}
+
 .getdrop ul{list-style: none;}
 .getdrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 30px;
     background-image: url(../img/menubg.png);
@@ -99,7 +99,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
     z-index: 10001;}
 .getdrop ul li:nth-child(3){padding: 2px 0px 10px 30px!important;}
 .resdrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 20px;}
-}
+
 .resdrop ul{list-style: none;}
 .resdrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 30px;
     background-image: url(../img/menubg.png);
@@ -108,7 +108,7 @@ body{width: 100%;box-sizing: border-box;background: white;height: auto;}
     z-index: 10001;}
 .resdrop ul li:nth-child(3){padding: 2px 0px 10px 30px!important;}
 .predrop{position: static;width: 100%;display: none;z-index: 10001;margin-top: 10px;}
-}
+
 .prosds{display: inline-block;padding-left: 10px;font-size: 18px;margin-bottom: 0px;}
 .predrop ul{list-style: none;}
 .predrop ul li{font-size: 23px;color: white;padding: 2px 0px 10px 30px;
@@ -204,7 +204,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .eduaction .left-side img{position: absolute;top: 70px;}
 .right-side{padding: 50px 0px;width: 49%;float: right;}
 .right-side h1{font-size: 65px;color: #fbcd2f;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 100px;}
-.right-side h2{font-size: 65px;color: #fbcd2f;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 100px;}
+.right-side h2{font-size: 65px;color: #fbcd2f;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 100px; overflow-wrap: break-word;}
 .right-side p{font-size: 18px;font-family: 'proxima_novaregular';padding-top: 12px;margin-bottom: 5px;}
 .pro{padding-top: 5px!important;margin-bottom: 30px!important;padding: 0px 30px 0px 0px;}
 .right-side a{background: #fbcd2f;font-size: 20px;font-family:'Roboto', sans-serif;font-weight: 700;padding: 15px 30px;color: white;}
@@ -253,7 +253,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .school .col-sm-6{padding: 0px!important;}
 .school .righttext{padding: 40px 60px;width: 49%;}
 .righttext h1{font-size: 65px;color: #0394cb;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 80px;}
-.righttext h2{font-size: 65px;color: #0394cb;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 80px;}
+.righttext h2{font-size: 65px;color: #0394cb;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;padding-top: 80px; overflow-wrap: break-word;}
 .righttext p{font-size: 18px;font-family: 'proxima_novaregular';padding-top: 12px;margin-bottom: 30px;}
 .rightpic{background-image: url(../img/school-2.png);background-repeat: no-repeat;width: 49%;height: 783px;position: relative;float: right;background-size: contain;}
 .rightpic img{position: absolute;top: 70px;}
@@ -267,7 +267,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .placeleft img{position: absolute;top: 70px;left: 15px;}
 .placeright{padding: 170px 15px;width: 49%;float: right;}
 .placeright h1{font-size: 65px;color: #79298a;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;}
-.placeright h2{font-size: 65px;color: #79298a;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;}
+.placeright h2{font-size: 65px;color: #79298a;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase; overflow-wrap: break-word;}
 .placeright p{font-size: 18px;font-family: 'proxima_novaregular';padding-top: 12px;margin-bottom: 30px;}
 .placeright a{background: #79298a;font-size: 20px;font-family:'Roboto', sans-serif;font-weight: 700;padding: 15px 30px;color: white;}
 .placeright a:hover{text-decoration: none;color: white;}
@@ -278,7 +278,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .trainerpic img{position: absolute;top: 70px;}
 .trainerleft{padding: 160px 3px; display: inline-block;width: 49%;}
 .trainerleft h1{font-size: 65px;color: #2c64af;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;margin-left: 50px;}
-.trainerleft h2{font-size: 65px;color: #2c64af;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;margin-left: 50px;}
+.trainerleft h2{font-size: 65px;color: #2c64af;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;margin-left: 50px; overflow-wrap: break-word;}
 .trainerleft p{font-size: 18px;font-family: 'proxima_novaregular';padding-top: 12px;margin-bottom: 30px;margin-left: 50px;}
 .trainerleft a{background: #4e4fa1;font-size: 20px;font-family:'Roboto', sans-serif;font-weight: 700;padding: 15px 30px;color: white;margin-left: 50px;}
 .trainerleft a:hover{text-decoration: none;color: white;}
@@ -289,7 +289,7 @@ font-weight: 400;padding-bottom: 20px;letter-spacing: 0.50px;}
 .develeft img{position: absolute;top: 70px;}
 .deveright{padding: 170px 33px;float: right;width: 49%;}
 .deveright h1{font-size: 65px;color: #58c8dc;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;}
-.deveright h2{font-size: 65px;color: #58c8dc;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;}
+.deveright h2{font-size: 65px;color: #58c8dc;font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase; overflow-wrap: break-word;}
 .deveright p{font-size: 18px;font-family: 'proxima_novaregular';padding-top: 12px;margin-bottom: 30px;}
 .deveright a{background: #58c8dc;font-size: 20px;font-family:'Roboto', sans-serif;font-weight: 700;padding: 15px 30px;color: white;}
 .deveright a:hover{text-decoration: none;color: white;}
@@ -827,10 +827,11 @@ opacity: 0;display: none;}
 .innernews a{font-size: 20px;font-weight: 600;color: #4e4fa1;text-transform: uppercase;font-family: 'Roboto',sans-serif;text-decoration: underline;padding-left: 15px;}
 .newbig img{width: 100%;height: auto;margin-bottom: 20px;}
 .innernews .col-sm-12{padding: 0px;}
-.dropdown-menu{position: static!important;
+.dropdown-menu {
+  position: static !important;
     display: none;
     min-width: 160px!important;
-    padding: 0px!important!important;
+    padding: 0px !important;
     margin: 2px!important;
     font-size: 14px!important;
     text-align: left!important;
